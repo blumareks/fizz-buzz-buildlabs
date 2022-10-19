@@ -11,5 +11,7 @@ an example kata for build labs:
  {"numbers":["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]}
  ```
  
+ - check the hints for containerization: https://nodejs.org/en/docs/guides/nodejs-docker-webapp/ 
+ 
  Enjoy!
  

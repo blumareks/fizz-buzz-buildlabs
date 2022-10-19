@@ -1,10 +1,9 @@
 const express = require("express");
 const app = express();
 
-const port = 3000
-/** CONTAINER
-const HOST = '0.0.0.0';
- */
+const PORT = 3000
+const HOST = 'LOCALHOST';
+
 app.get("/number/:no", (req, res) => {
     try {
         const number = req.params.no;
@@ -38,13 +37,9 @@ app.get("/test", (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
-});
 
-/** CONTAINER
  app.listen(PORT,HOST, () => {
     console.log(`Running on http://${HOST}:${PORT}`);
 });
-*/
+
   
